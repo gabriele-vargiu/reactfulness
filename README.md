@@ -25,8 +25,4 @@ state.revoke(selector, attribute);   // Revoke an assignment specifying which se
 
 ### Remaining Stuff
 
-- [ ] A dev version without anything extra but verbose console output for debugging.
-
-### Final Notes
-
-_This code is shit, I came to it in a single alcohol driven night; please for the love of God don't use this for anything more than just plain simple webpages and definitely not for complex webapps I beg of you. It has no optimization both in terms of runtime and download size._
+- A dev version without anything extra but verbose console output for debugging.
