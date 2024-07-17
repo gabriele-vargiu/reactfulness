@@ -8,7 +8,6 @@ class State {
     set value(newValue) {
         this._value = newValue
         this._assignee.forEach(assignment => {
-            console.log(assignment[0])
             document.querySelectorAll(assignment[0]).forEach(selected => {
                 if (assignment[1] == "innerText") {
                     selected.innerText = this._value
